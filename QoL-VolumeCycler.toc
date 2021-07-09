@@ -1,0 +1,11 @@
+## Interface: 90100
+## Title: QoL-VolumeCycler
+## Author: redbeard923
+## Dependencies: QoL-Common
+## SavedVariables: QOL_Config_Acct
+## SavedVariablesPerCharacter: QOL_Config_Toon
+## Version: 1.0.0
+
+SlashCommands.lua
+Options.lua
+VolumeCycler.lua
