@@ -3,10 +3,10 @@
 ## Author: redbeard923
 ## Dependencies: QoL-Common
 ## OptionaldDeps: QoL-AutoConfirm, QoL-AutoDecline, QoL-MiddleMarker, QoL-Summon
-## SavedVariables: QOL_Config_Acct
-## SavedVariablesPerCharacter: QOL_Config_Toon
+## SavedVariables: VC_Config_Acct
+## SavedVariablesPerCharacter: VC_Config_Toon
 ## Version: 1.0.0
 
-SlashCommands.lua
+Events.lua
 Options.lua
 VolumeCycler.lua
