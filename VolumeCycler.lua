@@ -12,7 +12,7 @@ SlashCmdList['QOLUTILITIESVOLUMECYCLER'] = function (msg)
 	elseif arg == 'off' then
 		VC.Toggle(false)
 	else
-		VC.Cycle(args)
+		VC.Cycle(arg)
 	end
 end
 
@@ -21,10 +21,10 @@ function VC.LoadInitialVolume()
 	VC.SetVolume(level)
 end
 
-function VC.Cycle(args)
+function VC.Cycle(arg)
 	local level = 100
-	if args[2] then
-		level = args[2]
+	if arg then
+		level = arg
 	else
 		local t = QOL_Config_Toon.Active and QOL_Config_Toon.VC.Levels or QOL_Config_Acct.VC.Levels
 		local i = QOL_Config_Toon.Active and QOL_Config_Toon.VC.Index or QOL_Config_Acct.VC.Index
