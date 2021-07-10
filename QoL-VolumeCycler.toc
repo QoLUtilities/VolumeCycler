@@ -7,6 +7,7 @@
 ## SavedVariablesPerCharacter: VC_Config_Toon
 ## Version: 1.0.0
 
+Constants.lua
 Events.lua
 Options.lua
 VolumeCycler.lua
